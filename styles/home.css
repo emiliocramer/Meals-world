@@ -21,13 +21,6 @@ p,h1,h2,h3,h4,h5,h6,a{
     flex-direction: row;
 }
 
-@media screen and (max-width: 900px) {
-    #title-cont {
-        border: 1px solid white;
-        flex-direction: column;
-    }
-}
-
 #list {
     display: flex;
     flex-direction: column;
@@ -37,6 +30,11 @@ p,h1,h2,h3,h4,h5,h6,a{
 
 #list a {
     color: #fff;
+    font-size: 25px;
+}
+
+#list p {
+    color: #fab300;
     font-size: 25px;
 }
 #list a:hover {
@@ -55,3 +53,4 @@ p,h1,h2,h3,h4,h5,h6,a{
     bottom: 5;
     right: 5;
 }
+
